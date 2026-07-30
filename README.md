@@ -1,29 +1,66 @@
 # Titanic Survival Prediction
 
-## Overview
+## Project Overview
 
-This project analyzes the Kaggle Titanic dataset and predicts passenger survival using Python and machine learning.
+This project demonstrates an end-to-end machine learning workflow using the Titanic dataset.
 
-## Objectives
+The objective is to predict passenger survival by performing data analysis, feature engineering, preprocessing, model comparison, and prediction.
 
-- Understand the basic workflow of data analysis
-- Explore and visualize passenger data
-- Build a machine learning model
-- Evaluate and improve the prediction results
-- Document the analysis process on GitHub
+---
+
+## Workflow
+
+- Data Exploration
+- Missing Value Analysis
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Data Preprocessing
+- Model Training
+- Model Comparison
+- Cross Validation
+- Feature Importance
+- Prediction
+
+---
 
 ## Technologies
 
 - Python
 - pandas
-- matplotlib
-- scikit-learn
-- Kaggle Notebooks
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-## Project Status
+---
 
-Currently in development.
+## Results
 
-## Author
+| Model | Validation Accuracy |
+|--------|--------------------:|
+| Logistic Regression | **83.24%** |
+| Random Forest | 79.89% |
 
-Minori Furuhashi
+Cross Validation Accuracy
+
+**82.60%**
+
+---
+
+## Repository Structure
+
+```
+Titanic-Survival-Prediction/
+│
+├── README.md
+└── Titanic_Survival_Prediction.ipynb
+```
+
+---
+
+## Future Improvements
+
+- Hyperparameter tuning
+- XGBoost / LightGBM
+- Ensemble learning
+- Additional feature engineering
